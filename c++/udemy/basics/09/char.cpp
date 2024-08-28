@@ -1,0 +1,38 @@
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    char ch1 = 'A';
+    int ch_value = ch1;
+
+    cout << ch_value << "\n";
+
+    cout << (int)'A' << "\n";
+    cout << (int)'B' << "\n";
+    cout << (int)'C' << "\n";
+    cout << (int)'D' << "\n";
+    cout << (int)'E' << "\n";
+    cout << (int)'F' << "\n";
+    cout << (int)'G' << "\n";
+
+    char ch2  = 90;
+
+    cout << ch2 << "\n";
+
+    cout << "****\n";
+
+    cout << (int)'a' << "\n";
+    cout << (int)'b' << "\n";
+    cout << (int)'c' << "\n";
+    cout << (int)'z' << "\n";
+
+    cout << (int)'a' +26 -1 << "\n";
+
+    cout << ('A' < 'a') << "\n";
+    return 0;
+
+
+
+}

@@ -1,0 +1,15 @@
+download go from golang.org
+
+extract the tar 
+place in usr/local
+
+
+append these lines in ~/.profile
+
+
+export PATH=$PATH:/usr/local/go/bin
+
+source ~/.profile 
+
+
+===========good to go

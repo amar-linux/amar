@@ -1,0 +1,93 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+B	ll_callback.c	/^void B(void (*fun)()){$/;"	f
+add_in_sorted_order	ll_prac.c	/^void add_in_sorted_order(node** head, int value){$/;"	f
+add_node	dll_all.c	/^void add_node(node* head, int value){$/;"	f
+add_node_in_sorted_order	dll_all.c	/^void add_node_in_sorted_order(node* head, int value){$/;"	f
+create_node	dll.c	/^dnode* create_node(int value){$/;"	f
+create_node	dll_all.c	/^node* create_node(int value){$/;"	f
+create_node	ll_all.c	/^node* create_node(int value){$/;"	f
+create_node	ll_prac.c	/^node* create_node(int value){$/;"	f
+create_node	queu2.c	/^node* create_node(int value){$/;"	f
+create_node	queue.c	/^node* create_node(int value){$/;"	f
+create_node	stack.c	/^node* create_node(int value){$/;"	f
+data	dll.c	/^    int data;$/;"	m	struct:node	file:
+data	dll_all.c	/^    int data;$/;"	m	struct:node	file:
+data	ll_all.c	/^    int data;$/;"	m	struct:node	file:
+data	ll_all_1.c	/^    int data;$/;"	m	struct:node	file:
+data	ll_prac.c	/^    int data;$/;"	m	struct:node	file:
+data	queu2.c	/^    int data;$/;"	m	struct:node	file:
+data	queue.c	/^    int data;$/;"	m	struct:node	file:
+data	stack.c	/^    int data;$/;"	m	struct:node	file:
+delete_element	ll_all.c	/^void delete_element(node** head, int value){$/;"	f
+deque	ll_prac.c	/^void deque(node** head){$/;"	f
+deque	queue.c	/^void deque(node** head){$/;"	f
+dequeue	queu2.c	/^void dequeue(node** head){$/;"	f
+dnode	dll.c	/^}dnode;$/;"	t	typeref:struct:node	file:
+enque	ll_prac.c	/^void enque(node** head,node** tail, int value){$/;"	f
+enque	queue.c	/^void enque(node** head, node** tail, int value){$/;"	f
+enqueue	queu2.c	/^void enqueue(node** tail, node** head, int value){$/;"	f
+find_middle_node	ll_all.c	/^void find_middle_node(node* head){$/;"	f
+fprev	dll.c	/^    struct node* fprev;$/;"	m	struct:node	typeref:struct:node::node	file:
+fprev	dll_all.c	/^    struct node* fprev;$/;"	m	struct:node	typeref:struct:node::node	file:
+fun	ll_callback.c	/^void fun(){$/;"	f
+insert_node	dll.c	/^void insert_node(dnode* head, int value){$/;"	f
+insert_node_at_begin	ll_all.c	/^void insert_node_at_begin(dnode** head, int value){$/;"	f
+insert_node_at_tail	ll_all.c	/^void insert_node_at_tail(node** head, node** tail, int value){$/;"	f
+insert_node_at_the_end	ll_all.c	/^void insert_node_at_the_end(node** head, int value){$/;"	f
+insert_node_in_beginning	dll.c	/^void insert_node_in_beginning(dnode* head, int value){$/;"	f
+insert_node_in_sorted_order	ll_all.c	/^void insert_node_in_sorted_order(node** head, int value){$/;"	f
+lnext	dll.c	/^    struct node* lnext;$/;"	m	struct:node	typeref:struct:node::node	file:
+lnext	dll_all.c	/^    struct node* lnext;$/;"	m	struct:node	typeref:struct:node::node	file:
+main	dll.c	/^int main(){$/;"	f
+main	dll_all.c	/^int main(){$/;"	f
+main	ll_all.c	/^int main(){$/;"	f
+main	ll_all_1.c	/^int main(){$/;"	f
+main	ll_callback.c	/^int main(){$/;"	f
+main	ll_prac.c	/^int main(){$/;"	f
+main	queu2.c	/^int main(){$/;"	f
+main	queue.c	/^int main(){$/;"	f
+main	stack.c	/^int main(){$/;"	f
+main	test.c	/^int main(){$/;"	f
+next	ll_all.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	ll_all_1.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	ll_prac.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	queu2.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	queue.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+next	stack.c	/^    struct node* next;$/;"	m	struct:node	typeref:struct:node::node	file:
+node	dll.c	/^typedef struct node{$/;"	s	file:
+node	dll_all.c	/^typedef struct node {$/;"	s	file:
+node	dll_all.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	ll_all.c	/^typedef struct node{$/;"	s	file:
+node	ll_all.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	ll_all_1.c	/^typedef struct node{$/;"	s	file:
+node	ll_all_1.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	ll_prac.c	/^typedef struct node{$/;"	s	file:
+node	ll_prac.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	queu2.c	/^typedef struct node{$/;"	s	file:
+node	queu2.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	queue.c	/^typedef struct node{$/;"	s	file:
+node	queue.c	/^}node;$/;"	t	typeref:struct:node	file:
+node	stack.c	/^typedef struct node{$/;"	s	file:
+node	stack.c	/^}node;$/;"	t	typeref:struct:node	file:
+pop	ll_prac.c	/^void pop(node** head){$/;"	f
+pop	stack.c	/^void pop(node** head){$/;"	f
+print_list	dll.c	/^void print_list(dnode* head){$/;"	f
+print_list	dll_all.c	/^void print_list (node* head){$/;"	f
+print_list	ll_all.c	/^void print_list(node* head){$/;"	f
+print_list	ll_prac.c	/^void print_list(node* head){$/;"	f
+print_list	queu2.c	/^void print_list(node* head){$/;"	f
+print_list	queue.c	/^void print_list(node** head){$/;"	f
+print_list	stack.c	/^void print_list(node* head){$/;"	f
+print_list_rev	dll.c	/^void print_list_rev(dnode* head){$/;"	f
+print_list_reverse	dll_all.c	/^void print_list_reverse(node* head){$/;"	f
+push	ll_prac.c	/^void push(node** head, int value){$/;"	f
+push	stack.c	/^void push(node** head, int value){$/;"	f
+reverse_the_list	ll_all.c	/^void reverse_the_list(node** head){$/;"	f
+reverse_the_list_in_pair	ll_all.c	/^void reverse_the_list_in_pair(node** head){$/;"	f
+sort_the_list	ll_all.c	/^void sort_the_list(node** head){$/;"	f
+sort_the_list	ll_prac.c	/^void sort_the_list(node** head){$/;"	f

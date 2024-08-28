@@ -1,0 +1,30 @@
+#include<iostream>
+#include<fstream>
+
+
+using namespace std;
+
+int main(){
+
+  ofstream outFile;
+
+  string outputFileName = "tst.txt";
+
+  outFile.open(outputFileName);
+
+  if (outFile.is_open()){
+      outFile << "Hello There " << endl;
+      outFile << 123 << endl;
+      outFile.close();
+  }
+  else
+  {
+      cout << "could not open the file";
+
+  }
+  return 0;
+
+
+
+    
+}

@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+
+int main(){
+
+    int a = 123456;
+
+    // count the digits 
+    int remainder=5;
+    int count=0;
+    int divisor =a;
+    while (divisor){
+        divisor = divisor/10;
+        count++;
+    }
+    printf ("%d\n",count);
+
+    remainder =5;
+    int i =0;
+    int result=0;
+    while(divisor)
+    {
+        remainder = divisor%10;
+        result = result + (remainder * ((count -i) *10));
+        divisor = divisor/10;
+        i++
+    }
+
+    printf ("%d\n", result);
+
+}

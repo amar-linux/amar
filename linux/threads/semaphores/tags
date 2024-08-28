@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLOCK_SIZE	shared_memory.h	15;"	d
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS=-g -Wall -lpthread$/;"	m
+EXE	Makefile	/^EXE=writeshmem.elf readshmem.elf destroy_shmem.elf writeshmem1.elf$/;"	m
+FILENAME	shared_memory.h	16;"	d
+FILENAME1	shared_memory.h	17;"	d
+IPC_RESULT_ERROR	shared_memory.c	9;"	d	file:
+IPC_RESULT_ERROR	shared_memory.h	18;"	d
+NUM_ITERATIONS	writeshmem.c	9;"	d	file:
+NUM_ITERATIONS	writeshmem1.c	9;"	d	file:
+OBJS	Makefile	/^OBJS=shared_memory.o$/;"	m
+SEM_CONSUMER_FNAME	shared_memory.h	22;"	d
+SEM_PRODUCER_FNAME	shared_memory.h	21;"	d
+SHARED_MEMORY_H_	shared_memory.h	2;"	d
+attach_memory_block	shared_memory.c	/^char* attach_memory_block(char* filename, int size){$/;"	f
+destroy_memory_block	shared_memory.c	/^bool destroy_memory_block(char* filename){$/;"	f
+detach_memory_block	shared_memory.c	/^bool detach_memory_block(char* block){$/;"	f
+get_shared_block	shared_memory.c	/^static int get_shared_block(char* filename, int size){$/;"	f	file:
+main	destroy_shmem.c	/^int main(int argc, char** argv){$/;"	f
+main	readshmem.c	/^int main(int argc, char** argv){$/;"	f
+main	writeshmem.c	/^int main(int argc, char** argv){$/;"	f
+main	writeshmem1.c	/^int main(int argc, char** argv){$/;"	f

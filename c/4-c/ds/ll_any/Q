@@ -1,0 +1,92 @@
+#include<stdio.h>
+#include<stdlib.h>
+typedef struct node_t{
+    int data;
+    struct node_t* next;
+
+}node;
+
+
+node* create_node()
+{
+    return((node*)malloc(sizeof(node)));
+}
+
+int add_node(node** head, int value, int position)
+{
+    
+    int i =0;
+    node* temp = create_node();
+    temp->data = value;
+    node* current = *head;
+    node* prev;
+    
+    if (!temp)
+    {
+        return -1;
+    }
+    if (position == 0 )
+    {
+        temp->next = *head;
+        *head = temp;
+        return 0;
+    }
+    for (i =0; i < position ; i++){
+        if (!current)
+        {
+            free(temp);
+            return -1;
+        }
+        prev = current;
+        current = current->next;
+    }
+    prev->next = temp;
+    temp->next = current;
+    return 0;
+}
+
+
+
+int main(){
+
+    node* head;
+    int position;
+    int value;
+    int choice;
+    int back;
+
+    while(1){
+        printf("Enter the choice:1-add, 2-delete, 3-print 4-exit:  ");
+        scanf("%d",&choice);
+        switch(choice)
+        {
+            case 1:
+                printf ("enter the value: ");
+                scanf("%d",&value);
+                printf ("enter the position: ");
+                scanf("%d",&position);
+                if (add_node(&head, value, position) == -1)
+                {
+                    printf ("could not addd the value , check position..\n");
+                }
+                break;
+            case 2:
+                printf ("enter the position: ");
+                scanf("%d",&choice);
+                if (delete_node(&head, value, position) == -1)
+                {
+                    printf ("could not delete the elemet..\n");
+                }
+                break;
+            case 3:
+                print_list(head);
+            case 4:
+                return 0;
+
+        }
+
+    modify_node(value, position,choice);
+    }
+
+
+}

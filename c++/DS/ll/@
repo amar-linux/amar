@@ -1,0 +1,49 @@
+#include<iostream>
+
+using namespace std;
+
+struct Node
+{
+    Node* next{};
+    int data{};
+    Node(int data):data(data),next(NULL){}
+};
+
+class LinkedList
+{
+private:
+    Node* Head;
+public:
+    void printll();
+    void addNode(int value);
+    Node* getTail();
+};
+
+
+void LinkedList::addNode(int value)
+{
+    node* cur = new Node(value);
+    cur->next = NULL;
+    if(!head)
+    {
+        Head = cur;
+    }
+}
+
+int main()
+{
+    LinkedList ll;
+    ll.addNode(15);
+    ll.addNode(18);
+    ll.addNode(32);
+    ll.addNode(64);
+    ll.addNode(43);
+    ll.addNode(13);
+
+    ll.printll();
+    cout << endl;
+
+    Node* tail = ll.getTail();
+    cout << tail->data << endl;
+
+}

@@ -1,0 +1,3 @@
+
+
+void logoutput(char* msg);
